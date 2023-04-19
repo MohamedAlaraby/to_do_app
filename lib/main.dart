@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'messenger_screen.dart';
+import 'package:flutterfirest/bmi_screen.dart';
 
-
+import 'bmi_result_screen.dart';
 void main() {
   runApp(MyApp());
 }
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget{
     return  MaterialApp
       (
       debugShowCheckedModeBanner: false,
-      home: MessengerScreen(),
+      home: BmiScreen(),
     );
   }
 
