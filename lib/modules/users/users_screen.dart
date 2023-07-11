@@ -1,13 +1,6 @@
 import 'package:flutter/material.dart';
-class UserModel{
-  //i make this final to prevent the user of this class from
-  // modifying the fields he on capable of adding the fields throw constructor(for safety).
-  final int id;
-  final String name;
-  final String number;
+import 'package:flutterfirest/models/user/user_model.dart';
 
-  UserModel({required this.id, required this.name, required this.number});
-}
 class UsersScreen extends StatelessWidget {
   var imageUrl =
       'https://avatars.githubusercontent.com/u/73850729?s=400&u=3860a9f9bc398700e099f2b9f36c85df68143784&v=4';

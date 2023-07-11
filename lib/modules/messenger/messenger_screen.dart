@@ -172,11 +172,12 @@ class MessengerScreen extends StatelessWidget {
                 Text(
                   'Mohamed Mohamed Al-araby Mohamed Mohamed Al-araby',
                   maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
                   style: TextStyle(
                       fontWeight: FontWeight.bold,
                       color: Colors.black,
                       fontSize: 16.0),
-                  overflow: TextOverflow.ellipsis,
+
                 ),
                 SizedBox(
                   height: 3.0,

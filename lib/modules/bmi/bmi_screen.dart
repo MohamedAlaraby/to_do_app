@@ -1,7 +1,7 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:flutterfirest/bmi_result_screen.dart';
+import 'package:flutterfirest/modules/bmi_result/bmi_result_screen.dart';
 
 class BmiScreen extends StatefulWidget {
   @override
@@ -303,7 +303,7 @@ class _BmiScreenState extends State<BmiScreen> {
                   onPressed: () {
                       double result =weight/pow(height/100,2);
                       print('The result is ${result.round()}');
-                      Navigator.push(//give you the context and need the route or the distenation.
+                      Navigator.push(//give you the context and need the route or the destination.
                           context,
                           MaterialPageRoute(
                             builder:(context) =>//it give me the context

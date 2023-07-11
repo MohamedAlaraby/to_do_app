@@ -10,7 +10,6 @@ class BmiResultScreen extends StatelessWidget {
     required this.age,
     required this.isMale
   });
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -20,8 +19,8 @@ class BmiResultScreen extends StatelessWidget {
           icon: Icon(Icons.arrow_back_ios),
           onPressed:(){
             Navigator.pop(context);
-          } ,
-        ) ,
+          },
+        ),
       ),
       body: Center(
         child: Column(
@@ -49,7 +48,7 @@ class BmiResultScreen extends StatelessWidget {
               ),
             ),
           ],
-        ),
+          ),
       ),
     );
   }
